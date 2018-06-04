@@ -3,6 +3,7 @@ package Cloud.Server;
 import Cloud.Common.Color;
 import Cloud.Common.MessageType.AuthMessage;
 import Cloud.Common.MessageType.CommonMessage;
+import Cloud.Common.MessageType.FileDataMessage;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.ChannelInboundHandlerAdapter;
 import io.netty.util.ReferenceCountUtil;
@@ -31,6 +32,7 @@ public class ServerHandler extends ChannelInboundHandlerAdapter {
 
         try {
             if (msg == null) return;
+
             logger.info(Color.ANSI_CYAN.getColor()+"Incoming message " + msg.getClass()+Color.ANSI_RESET.getColor());
 
             if(isNotAuth){
@@ -49,8 +51,10 @@ public class ServerHandler extends ChannelInboundHandlerAdapter {
                         isNotAuth = true;
                     }
                 }
-            }else if (true) { // добавить отбработку сообщений
-
+            }else if(!isNotAuth){
+                if(msg instanceof FileDataMessage) {
+                    System.out.println(Color.ANSI_RED.getColor() + " AAAAAA "+ Color.ANSI_RESET.getColor());
+                }
             } else {
                 logger.error(Color.ANSI_RED.getColor() + "Server received wrong object!"+ Color.ANSI_RESET.getColor());
                 return;

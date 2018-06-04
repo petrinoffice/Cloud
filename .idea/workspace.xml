@@ -2,33 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f9ebb9e7-6af9-410e-9dd2-7d376a108ccc" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/File/ClientFile/123.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/File/ClientFile/debug.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Cloud/Client/ClientHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Cloud/Client/NettyClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Cloud/Common/MessageType/FileDataMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Cloud/Common/WorkWithFiles.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/debug.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Cloud/Client/ClientMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cloud/Client/ClientMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Cloud/Client/ClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cloud/Client/ClientHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Cloud/Client/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cloud/Client/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Cloud/Common/MessageType/AuthMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cloud/Common/MessageType/AuthMessage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Cloud/Common/MyMessage.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Cloud/Server/ServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cloud/Server/ServerHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Cloud/Server/ServerMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cloud/Server/ServerMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/client.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/client.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Cloud/Client/ClientMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Cloud/Client/ClientMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Cloud/Client/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Cloud/Client/Controller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Cloud/Common/Color.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Cloud/Common/Color.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Cloud/Common/MessageType/AuthMessage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Cloud/Common/MessageType/AuthMessage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Cloud/Common/MessageType/CommonMessage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Cloud/Common/MessageType/CommonMessage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Cloud/Common/MyMessage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Cloud/Server/SQLConnect.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Cloud/Server/SQLConnect.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Cloud/Server/ServerHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Cloud/Server/ServerHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Cloud/Server/ServerMain$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Cloud/Server/ServerMain$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Cloud/Server/ServerMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Cloud/Server/ServerMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/client.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/client.fxml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -63,8 +40,8 @@
       <file leaf-file-name="Controller.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Cloud/Client/Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-101">
-              <caret line="45" column="7" selection-start-line="45" selection-start-column="7" selection-end-line="45" selection-end-column="50" />
+            <state relative-caret-position="148">
+              <caret line="67" column="8" selection-start-line="67" selection-start-column="8" selection-end-line="67" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -92,6 +69,15 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ServerHandler.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Cloud/Server/ServerHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="363">
+              <caret line="57" column="20" lean-forward="true" selection-start-line="57" selection-start-column="20" selection-end-line="57" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -126,7 +112,7 @@
       <file leaf-file-name="NettyClient.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Cloud/Client/NettyClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="433">
+            <state relative-caret-position="398">
               <caret line="56" column="29" selection-start-line="56" selection-start-column="29" selection-end-line="56" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -137,15 +123,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ClientHandler.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ClientHandler.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Cloud/Client/ClientHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-173">
-              <caret line="28" column="9" lean-forward="true" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+            <state relative-caret-position="322">
+              <caret line="61" column="37" selection-start-line="61" selection-start-column="37" selection-end-line="61" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#417#418#0" expanded="true" />
                 <element signature="e#461#462#0" expanded="true" />
+                <element signature="e#1094#1095#0" expanded="true" />
+                <element signature="e#1121#1122#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -188,7 +176,6 @@
         <option value="$PROJECT_DIR$/src/main/java/Cloud/Client/ClientHandler2.java" />
         <option value="$PROJECT_DIR$/src/main/java/Cloud/Server/ServerMain.java" />
         <option value="$PROJECT_DIR$/src/main/java/Cloud/Client/NettyClientDoNotUse.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Cloud/Server/ServerHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/Cloud/Common/MyMessage.java" />
         <option value="$PROJECT_DIR$/src/main/java/Cloud/Client/WorkWithFiles.java" />
         <option value="$PROJECT_DIR$/src/main/java/Cloud/Common/WorkWithFiles.java" />
@@ -197,8 +184,9 @@
         <option value="$PROJECT_DIR$/File/ClientFile/123.txt" />
         <option value="$PROJECT_DIR$/src/main/java/Cloud/Common/MessageType/FileDataMessage.java" />
         <option value="$PROJECT_DIR$/src/main/java/Cloud/Client/NettyClient.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Cloud/Client/Controller.java" />
         <option value="$PROJECT_DIR$/src/main/java/Cloud/Client/ClientHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Cloud/Client/Controller.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Cloud/Server/ServerHandler.java" />
       </list>
     </option>
   </component>
@@ -578,16 +566,15 @@
       <workItem from="1527703073756" duration="2822000" />
       <workItem from="1527832482616" duration="893000" />
       <workItem from="1528034539340" duration="435000" />
-      <workItem from="1528035054392" duration="20276000" />
+      <workItem from="1528035054392" duration="22904000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40095000" />
+    <option name="totallyTimeSpent" value="42723000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1280" height="712" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -850,13 +837,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Cloud/Server/ServerHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="49" column="36" selection-start-line="49" selection-start-column="36" selection-end-line="49" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/File/ClientFile/debug.log">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -939,7 +919,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Cloud/Client/NettyClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
+        <state relative-caret-position="398">
           <caret line="56" column="29" selection-start-line="56" selection-start-column="29" selection-end-line="56" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -949,25 +929,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Cloud/Client/ClientHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="61" column="37" selection-start-line="61" selection-start-column="37" selection-end-line="61" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#417#418#0" expanded="true" />
+            <element signature="e#461#462#0" expanded="true" />
+            <element signature="e#1094#1095#0" expanded="true" />
+            <element signature="e#1121#1122#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Cloud/Client/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-101">
-          <caret line="45" column="7" selection-start-line="45" selection-start-column="7" selection-end-line="45" selection-end-column="50" />
+        <state relative-caret-position="148">
+          <caret line="67" column="8" selection-start-line="67" selection-start-column="8" selection-end-line="67" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Cloud/Client/ClientHandler.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Cloud/Server/ServerHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-173">
-          <caret line="28" column="9" lean-forward="true" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#417#418#0" expanded="true" />
-            <element signature="e#461#462#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="363">
+          <caret line="57" column="20" lean-forward="true" selection-start-line="57" selection-start-column="20" selection-end-line="57" selection-end-column="20" />
         </state>
       </provider>
     </entry>

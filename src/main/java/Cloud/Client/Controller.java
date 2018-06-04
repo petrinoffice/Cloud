@@ -2,6 +2,7 @@ package Cloud.Client;
 
 import Cloud.Common.MessageType.FileDataMessage;
 import Cloud.Common.WorkWithFiles;
+import io.netty.channel.ChannelHandlerContext;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
@@ -63,10 +64,9 @@ public class Controller {
     }
 
     public void sendClientFile(ActionEvent actionEvent) {
-        System.out.println(localList.getSelectionModel().getSelectedItem());
-        //ClientHandler.sendFile(new FileDataMessage(pathToSearch+"/"+localList.getSelectionModel().getSelectedItem()));
-        System.out.println(clientHandler);
+       // clientHandler.channelRead(, new FileDataMessage(pathToSearch+"/"+localList.getSelectionModel().getSelectedItem()));
         clientHandler.sendFile(new FileDataMessage(pathToSearch+"/"+localList.getSelectionModel().getSelectedItem()));
+
     }
 
     public void refreshClientFile(ActionEvent actionEvent) {
