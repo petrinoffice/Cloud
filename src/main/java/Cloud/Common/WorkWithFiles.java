@@ -1,4 +1,4 @@
-package Cloud.Client;
+package Cloud.Common;
 
 import java.io.File;
 import java.io.IOException;

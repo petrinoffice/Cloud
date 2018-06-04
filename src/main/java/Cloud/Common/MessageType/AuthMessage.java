@@ -3,7 +3,6 @@ package Cloud.Common.MessageType;
 import java.io.Serializable;
 
 public class AuthMessage implements Serializable {
-    private static final long serialVersionUID = 5193392663743561681L;
 
         private String login;
         private String pass;

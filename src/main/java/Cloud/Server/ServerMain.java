@@ -10,13 +10,14 @@ import io.netty.channel.socket.SocketChannel;
 import io.netty.channel.socket.nio.NioServerSocketChannel;
 import io.netty.handler.codec.serialization.ClassResolvers;
 import io.netty.handler.codec.serialization.ObjectDecoder;
+import io.netty.handler.codec.serialization.ObjectEncoder;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 public class ServerMain {
     private static final int PORT = 8189;
     private static final int MAX_OBJ_SIZE = 1024 * 1024 * 100; // 10 mb
-    private static Logger logger = LoggerFactory.getLogger(SQLConnect.class);
+    private static Logger logger = LoggerFactory.getLogger(ServerMain.class);
 
 
     public void run() throws Exception {
@@ -31,6 +32,7 @@ public class ServerMain {
                         protected void initChannel(SocketChannel socketChannel) throws Exception {
                             socketChannel.pipeline().addLast(
                                     new ObjectDecoder(MAX_OBJ_SIZE, ClassResolvers.cacheDisabled(null)),
+                                    new ObjectEncoder(),
                                     new ServerHandler()
                             );
                         }
@@ -48,10 +50,8 @@ public class ServerMain {
 
     public static void main(String[] args) throws Exception {
         try {
-            //SQLConnect sqlConnect = new SQLConnect();
-            //SQLConnect.connect();
             SQLConnect.connect();
-            SQLConnect.checkAvtorisation("qwe","123");
+
         } catch (Exception e) {
             e.printStackTrace();
         }

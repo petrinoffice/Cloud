@@ -1,0 +1,7 @@
+2018-06-01 09:02:47 [main] INFO  Cloud.Server.SQLConnect - Error while connect to BD: false
+2018-06-01 09:02:47 [main] ERROR Cloud.Server.SQLConnect - User qwe cannot authorized
+2018-06-01 09:03:06 [nioEventLoopGroup-3-1] INFO  Cloud.Server.ServerHandler - [32m Client connected from: localhost/127.0.0.1[0m 
+2018-06-01 09:03:06 [nioEventLoopGroup-3-1] INFO  Cloud.Server.ServerHandler - [36m Incoming message class Cloud.Common.MyMessage[0m 
+2018-06-01 09:03:06 [nioEventLoopGroup-3-1] INFO  Cloud.Server.ServerHandler - [36m Incoming message class Cloud.Common.MessageType.AuthMessage[0m 
+2018-06-01 09:03:06 [nioEventLoopGroup-3-1] INFO  Cloud.Server.SQLConnect - User LoginTest authorized
+2018-06-01 09:03:06 [nioEventLoopGroup-3-1] INFO  Cloud.Server.ServerHandler - Сlient authorized by name: [32m LoginTest [0m 

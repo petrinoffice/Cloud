@@ -1,143 +1,152 @@
-2018-05-29 19:42:56 [main] INFO  Cloud.Server.SQLConnect - Test1111
-2018-05-29 19:42:57 [main] INFO  Cloud.Server.SQLConnect - Connect to BD successful
-2018-05-29 19:42:57 [main] ERROR Cloud.Server.SQLConnect - User qwe cannot authorized
-2018-05-29 19:54:51 [main] INFO  Cloud.Server.SQLConnect - Connect to BD successful
-2018-05-29 19:54:51 [main] ERROR Cloud.Server.SQLConnect - User qwe cannot authorized
-2018-05-29 19:55:24 [main] INFO  Cloud.Server.SQLConnect - Connect to BD successful
-2018-05-29 19:55:24 [main] ERROR Cloud.Server.SQLConnect - User qwe cannot authorized
-2018-05-29 19:56:04 [main] INFO  Cloud.Server.SQLConnect - Connect to BD successful
-2018-05-29 19:56:04 [main] ERROR Cloud.Server.SQLConnect - User qwe cannot authorized
-2018-05-29 19:57:41 [main] INFO  Cloud.Server.SQLConnect - Connect to BD successful
-2018-05-29 19:57:41 [main] ERROR Cloud.Server.SQLConnect - User qwe cannot authorized
-2018-05-29 19:59:16 [main] INFO  Cloud.Server.SQLConnect - Connect to BD successful
-2018-05-29 19:59:16 [main] ERROR Cloud.Server.SQLConnect - null
-2018-05-29 19:59:16 [main] ERROR Cloud.Server.SQLConnect - User qwe cannot authorized
-2018-05-29 20:03:03 [main] INFO  Cloud.Server.SQLConnect - Connect to BD null
-2018-05-29 20:03:03 [main] ERROR Cloud.Server.SQLConnect - null
-2018-05-29 20:03:03 [main] ERROR Cloud.Server.SQLConnect - User qwe cannot authorized
-2018-05-29 20:03:37 [main] INFO  Cloud.Server.SQLConnect - Connect to BD null
-2018-05-29 20:03:37 [main] ERROR Cloud.Server.SQLConnect - User qwe cannot authorized
-2018-05-29 20:06:43 [main] INFO  Cloud.Server.SQLConnect - Connect to BD null
-2018-05-29 20:06:43 [main] ERROR Cloud.Server.SQLConnect - User qwe cannot authorized
-2018-05-29 20:06:59 [main] INFO  Cloud.Server.SQLConnect - Connect to BD null
-2018-05-29 20:06:59 [main] ERROR Cloud.Server.SQLConnect - User qwe cannot authorized
-2018-05-29 20:07:42 [main] INFO  Cloud.Server.SQLConnect - Connect to BD false
-2018-05-29 20:07:42 [main] ERROR Cloud.Server.SQLConnect - User qwe cannot authorized
-2018-05-29 20:09:36 [main] INFO  Cloud.Server.SQLConnect - Error while Connect to BD: false
-2018-05-29 20:09:36 [main] ERROR Cloud.Server.SQLConnect - User qwe cannot authorized
-2018-05-29 20:10:09 [main] INFO  Cloud.Server.SQLConnect - Error while connect to BD: false
-2018-05-29 20:10:09 [main] ERROR Cloud.Server.SQLConnect - null
-2018-05-29 20:10:09 [main] ERROR Cloud.Server.SQLConnect - User qwe cannot authorized
-2018-05-29 20:11:02 [main] INFO  Cloud.Server.SQLConnect - Error while connect to BD: false
-2018-05-29 20:11:02 [main] ERROR Cloud.Server.SQLConnect - User qwe cannot authorized
-2018-05-29 20:39:17 [main] INFO  Cloud.Server.SQLConnect - Error while connect to BD: false
-2018-05-29 20:39:17 [main] ERROR Cloud.Server.SQLConnect - User qwe cannot authorized
-2018-05-29 20:40:04 [main] INFO  Cloud.Server.SQLConnect - Error while connect to BD: false
-2018-05-29 20:40:04 [main] ERROR Cloud.Server.SQLConnect - User qwe cannot authorized
-2018-05-29 20:40:38 [main] INFO  Cloud.Server.SQLConnect - Error while connect to BD: false
-2018-05-29 20:40:38 [main] ERROR Cloud.Server.SQLConnect - User qwe cannot authorized
-2018-05-29 21:01:28 [main] INFO  Cloud.Server.SQLConnect - Error while connect to BD: false
-2018-05-29 21:01:28 [main] ERROR Cloud.Server.SQLConnect - User qwe cannot authorized
-2018-05-29 21:02:29 [main] INFO  Cloud.Server.SQLConnect - Error while connect to BD: false
-2018-05-29 21:02:29 [main] ERROR Cloud.Server.SQLConnect - User qwe cannot authorized
-2018-05-29 21:02:40 [main] INFO  Cloud.Server.SQLConnect - Error while connect to BD: false
-2018-05-29 21:02:40 [main] ERROR Cloud.Server.SQLConnect - User qwe cannot authorized
-2018-05-29 21:05:45 [main] INFO  Cloud.Server.SQLConnect - Error while connect to BD: false
-2018-05-29 21:05:45 [main] ERROR Cloud.Server.SQLConnect - User qwe cannot authorized
-2018-05-29 21:05:54 [nioEventLoopGroup-3-1] ERROR Cloud.Server.SQLConnect - User Login cannot authorized
-2018-05-29 21:07:46 [main] INFO  Cloud.Server.SQLConnect - Error while connect to BD: false
-2018-05-29 21:07:46 [main] ERROR Cloud.Server.SQLConnect - User qwe cannot authorized
-2018-05-29 21:07:53 [nioEventLoopGroup-3-1] INFO  Cloud.Server.SQLConnect - User LoginTest authorized
-2018-05-29 21:13:04 [nioEventLoopGroup-3-2] INFO  Cloud.Server.SQLConnect - User LoginTest authorized
-2018-05-29 21:17:27 [main] INFO  Cloud.Server.SQLConnect - Error while connect to BD: false
-2018-05-29 21:17:27 [main] ERROR Cloud.Server.SQLConnect - User qwe cannot authorized
-2018-05-29 21:17:45 [nioEventLoopGroup-3-1] INFO  Cloud.Server.SQLConnect - User LoginTest authorized
-2018-05-29 21:19:00 [main] INFO  Cloud.Server.SQLConnect - Error while connect to BD: false
-2018-05-29 21:19:00 [main] ERROR Cloud.Server.SQLConnect - User qwe cannot authorized
-2018-05-29 21:19:04 [nioEventLoopGroup-3-1] INFO  Cloud.Server.SQLConnect - User LoginTest authorized
-2018-05-29 21:21:35 [main] INFO  Cloud.Server.SQLConnect - Error while connect to BD: false
-2018-05-29 21:21:35 [main] ERROR Cloud.Server.SQLConnect - User qwe cannot authorized
-2018-05-29 21:34:43 [main] INFO  Cloud.Server.SQLConnect - Error while connect to BD: false
-2018-05-29 21:34:43 [main] ERROR Cloud.Server.SQLConnect - User qwe cannot authorized
-2018-05-29 21:34:53 [nioEventLoopGroup-3-1] INFO  Cloud.Server.ServerHandler - Client connected from: localhost/127.0.0.1
-2018-05-29 21:34:54 [nioEventLoopGroup-3-1] INFO  Cloud.Server.SQLConnect - User LoginTest authorized
-2018-05-29 21:36:13 [main] INFO  Cloud.Server.SQLConnect - Error while connect to BD: false
-2018-05-29 21:36:13 [main] ERROR Cloud.Server.SQLConnect - User qwe cannot authorized
-2018-05-29 21:36:17 [nioEventLoopGroup-3-1] INFO  Cloud.Server.ServerHandler - [32mClient connected from: localhost/127.0.0.1[0m
-2018-05-29 21:36:17 [nioEventLoopGroup-3-1] INFO  Cloud.Server.SQLConnect - User LoginTest authorized
-2018-05-29 21:37:50 [main] INFO  Cloud.Server.SQLConnect - Error while connect to BD: false
-2018-05-29 21:37:50 [main] ERROR Cloud.Server.SQLConnect - User qwe cannot authorized
-2018-05-29 21:37:57 [nioEventLoopGroup-3-1] INFO  Cloud.Server.ServerHandler - [32m Client connected from: localhost/127.0.0.1[0m 
-2018-05-29 21:37:57 [nioEventLoopGroup-3-1] INFO  Cloud.Server.SQLConnect - User LoginTest authorized
-2018-05-29 21:49:16 [main] INFO  Cloud.Server.SQLConnect - Error while connect to BD: false
-2018-05-29 21:49:16 [main] ERROR Cloud.Server.SQLConnect - User qwe cannot authorized
-2018-05-29 21:49:22 [nioEventLoopGroup-3-1] INFO  Cloud.Server.ServerHandler - [32m Client connected from: localhost/127.0.0.1[0m 
-2018-05-29 21:49:23 [nioEventLoopGroup-3-1] INFO  Cloud.Server.SQLConnect - User LoginTest authorized
-2018-05-29 21:49:32 [nioEventLoopGroup-3-2] INFO  Cloud.Server.ServerHandler - [32m Client connected from: localhost/127.0.0.1[0m 
-2018-05-29 21:49:32 [nioEventLoopGroup-3-2] INFO  Cloud.Server.SQLConnect - User LoginTest authorized
-2018-05-29 21:49:33 [nioEventLoopGroup-3-3] INFO  Cloud.Server.ServerHandler - [32m Client connected from: localhost/127.0.0.1[0m 
-2018-05-29 21:49:33 [nioEventLoopGroup-3-3] INFO  Cloud.Server.SQLConnect - User LoginTest authorized
-2018-05-29 21:49:34 [nioEventLoopGroup-3-4] INFO  Cloud.Server.ServerHandler - [32m Client connected from: localhost/127.0.0.1[0m 
-2018-05-29 21:49:34 [nioEventLoopGroup-3-4] INFO  Cloud.Server.SQLConnect - User LoginTest authorized
-2018-05-29 21:59:04 [main] INFO  Cloud.Server.SQLConnect - Error while connect to BD: false
-2018-05-29 21:59:04 [main] ERROR Cloud.Server.SQLConnect - User qwe cannot authorized
-2018-05-29 21:59:11 [nioEventLoopGroup-3-1] INFO  Cloud.Server.ServerHandler - ANSI_GREENClient connected from: localhost/127.0.0.1ANSI_RESET
-2018-05-29 21:59:12 [nioEventLoopGroup-3-1] INFO  Cloud.Server.SQLConnect - User LoginTest authorized
-2018-05-29 21:59:38 [main] INFO  Cloud.Server.SQLConnect - Error while connect to BD: false
-2018-05-29 21:59:38 [main] ERROR Cloud.Server.SQLConnect - User qwe cannot authorized
-2018-05-29 21:59:40 [nioEventLoopGroup-3-1] INFO  Cloud.Server.ServerHandler - [32m Client connected from: localhost/127.0.0.1[0m 
-2018-05-29 21:59:40 [nioEventLoopGroup-3-1] INFO  Cloud.Server.SQLConnect - User LoginTest authorized
-2018-05-29 22:10:10 [main] INFO  Cloud.Server.SQLConnect - Error while connect to BD: false
-2018-05-29 22:10:10 [main] ERROR Cloud.Server.SQLConnect - User qwe cannot authorized
-2018-05-29 22:10:19 [nioEventLoopGroup-3-1] INFO  Cloud.Server.ServerHandler - [32m Client connected from: localhost/127.0.0.1[0m 
-2018-05-29 22:10:20 [nioEventLoopGroup-3-1] INFO  Cloud.Server.ServerHandler - [36m Incoming message class Cloud.Common.MyMessage[0m 
-2018-05-29 22:10:20 [nioEventLoopGroup-3-1] INFO  Cloud.Server.ServerHandler - [36m Incoming message class Cloud.Common.MessageType.AuthMessage[0m 
-2018-05-29 22:10:20 [nioEventLoopGroup-3-1] INFO  Cloud.Server.SQLConnect - User LoginTest authorized
-2018-05-29 22:10:20 [nioEventLoopGroup-3-1] INFO  Cloud.Server.ServerHandler - Сlient authorized by name: LoginTest
-2018-05-29 22:11:36 [main] INFO  Cloud.Server.SQLConnect - Error while connect to BD: false
-2018-05-29 22:11:36 [main] ERROR Cloud.Server.SQLConnect - User qwe cannot authorized
-2018-05-29 22:11:41 [nioEventLoopGroup-3-1] INFO  Cloud.Server.ServerHandler - [32m Client connected from: localhost/127.0.0.1[0m 
-2018-05-29 22:11:41 [nioEventLoopGroup-3-1] INFO  Cloud.Server.ServerHandler - [36m Incoming message class Cloud.Common.MyMessage[0m 
-2018-05-29 22:11:41 [nioEventLoopGroup-3-1] INFO  Cloud.Server.ServerHandler - [36m Incoming message class Cloud.Common.MessageType.AuthMessage[0m 
-2018-05-29 22:11:41 [nioEventLoopGroup-3-1] INFO  Cloud.Server.SQLConnect - User LoginTest authorized
-2018-05-29 22:11:41 [nioEventLoopGroup-3-1] INFO  Cloud.Server.ServerHandler - Сlient authorized by name: LoginTest
-2018-05-29 22:13:05 [main] INFO  Cloud.Server.SQLConnect - Error while connect to BD: false
-2018-05-29 22:13:05 [main] ERROR Cloud.Server.SQLConnect - User qwe cannot authorized
-2018-05-29 22:13:49 [nioEventLoopGroup-3-1] INFO  Cloud.Server.ServerHandler - [32m Client connected from: localhost/127.0.0.1[0m 
-2018-05-29 22:13:49 [nioEventLoopGroup-3-1] INFO  Cloud.Server.ServerHandler - [36m Incoming message class Cloud.Common.MyMessage[0m 
-2018-05-29 22:13:49 [nioEventLoopGroup-3-1] INFO  Cloud.Server.ServerHandler - [36m Incoming message class Cloud.Common.MessageType.AuthMessage[0m 
-2018-05-29 22:13:49 [nioEventLoopGroup-3-1] INFO  Cloud.Server.SQLConnect - User LoginTest authorized
-2018-05-29 22:13:49 [nioEventLoopGroup-3-1] INFO  Cloud.Server.ServerHandler - Сlient authorized by name: [32m LoginTestANSI_RESET
-2018-05-29 22:20:18 [main] INFO  Cloud.Server.SQLConnect - Error while connect to BD: false
-2018-05-29 22:20:18 [main] ERROR Cloud.Server.SQLConnect - User qwe cannot authorized
-2018-05-29 22:20:21 [nioEventLoopGroup-3-1] INFO  Cloud.Server.ServerHandler - [32m Client connected from: localhost/127.0.0.1[0m 
-2018-05-29 22:20:21 [nioEventLoopGroup-3-1] INFO  Cloud.Server.ServerHandler - [36m Incoming message class Cloud.Common.MyMessage[0m 
-2018-05-29 22:20:21 [nioEventLoopGroup-3-1] INFO  Cloud.Server.ServerHandler - [36m Incoming message class Cloud.Common.MessageType.AuthMessage[0m 
-2018-05-29 22:20:21 [nioEventLoopGroup-3-1] INFO  Cloud.Server.SQLConnect - User LoginTest authorized
-2018-05-29 22:20:21 [nioEventLoopGroup-3-1] INFO  Cloud.Server.ServerHandler - Сlient authorized by name: [32m LoginTest [0m 
-2018-05-29 22:22:19 [main] INFO  Cloud.Server.SQLConnect - Error while connect to BD: false
-2018-05-29 22:22:19 [main] ERROR Cloud.Server.SQLConnect - User qwe cannot authorized
-2018-05-29 22:22:24 [nioEventLoopGroup-3-1] INFO  Cloud.Server.ServerHandler - [32m Client connected from: localhost/127.0.0.1[0m 
-2018-05-29 22:22:24 [nioEventLoopGroup-3-1] INFO  Cloud.Server.ServerHandler - [36m Incoming message class Cloud.Common.MyMessage[0m 
-2018-05-29 22:22:24 [nioEventLoopGroup-3-1] INFO  Cloud.Server.ServerHandler - [36m Incoming message class Cloud.Common.MessageType.AuthMessage[0m 
-2018-05-29 22:22:24 [nioEventLoopGroup-3-1] ERROR Cloud.Server.SQLConnect - User LoginTest1 cannot authorized
-2018-05-29 22:22:24 [nioEventLoopGroup-3-1] ERROR Cloud.Server.ServerHandler - [31m Client cant be authorized by login: LoginTest1[0m 
-2018-05-29 22:57:34 [main] INFO  Cloud.Server.SQLConnect - Error while connect to BD: false
-2018-05-29 22:57:34 [main] ERROR Cloud.Server.SQLConnect - User qwe cannot authorized
-2018-05-29 22:57:45 [nioEventLoopGroup-3-1] INFO  Cloud.Server.ServerHandler - [32m Client connected from: localhost/127.0.0.1[0m 
-2018-05-29 22:57:45 [nioEventLoopGroup-3-1] INFO  Cloud.Server.ServerHandler - [36m Incoming message class Cloud.Common.MyMessage[0m 
-2018-05-29 22:57:45 [nioEventLoopGroup-3-1] INFO  Cloud.Server.ServerHandler - [36m Incoming message class Cloud.Common.MessageType.AuthMessage[0m 
-2018-05-29 22:57:45 [nioEventLoopGroup-3-1] INFO  Cloud.Server.SQLConnect - User LoginTest authorized
-2018-05-29 22:57:45 [nioEventLoopGroup-3-1] INFO  Cloud.Server.ServerHandler - Сlient authorized by name: [32m LoginTest [0m 
-2018-05-29 22:59:01 [nioEventLoopGroup-3-2] INFO  Cloud.Server.ServerHandler - [32m Client connected from: localhost/127.0.0.1[0m 
-2018-05-29 22:59:01 [nioEventLoopGroup-3-2] INFO  Cloud.Server.ServerHandler - [36m Incoming message class Cloud.Common.MyMessage[0m 
-2018-05-29 22:59:01 [nioEventLoopGroup-3-2] INFO  Cloud.Server.ServerHandler - [36m Incoming message class Cloud.Common.MessageType.AuthMessage[0m 
-2018-05-29 22:59:01 [nioEventLoopGroup-3-2] INFO  Cloud.Server.SQLConnect - User LoginTest authorized
-2018-05-29 22:59:01 [nioEventLoopGroup-3-2] INFO  Cloud.Server.ServerHandler - Сlient authorized by name: [32m LoginTest [0m 
-2018-05-29 23:06:42 [main] INFO  Cloud.Server.SQLConnect - Error while connect to BD: false
-2018-05-29 23:06:42 [main] ERROR Cloud.Server.SQLConnect - User qwe cannot authorized
-2018-05-29 23:06:50 [nioEventLoopGroup-3-1] INFO  Cloud.Server.ServerHandler - [32m Client connected from: localhost/127.0.0.1[0m 
-2018-05-29 23:06:50 [nioEventLoopGroup-3-1] INFO  Cloud.Server.ServerHandler - [36m Incoming message class Cloud.Common.MyMessage[0m 
-2018-05-29 23:06:50 [nioEventLoopGroup-3-1] INFO  Cloud.Server.ServerHandler - [36m Incoming message class Cloud.Common.MessageType.AuthMessage[0m 
-2018-05-29 23:06:50 [nioEventLoopGroup-3-1] INFO  Cloud.Server.SQLConnect - User LoginTest authorized
-2018-05-29 23:06:50 [nioEventLoopGroup-3-1] INFO  Cloud.Server.ServerHandler - Сlient authorized by name: [32m LoginTest [0m 
+2018-06-04 09:49:21 [nioEventLoopGroup-3-6] INFO  Cloud.Server.ServerHandler - [32m Client connected from: localhost/127.0.0.1[0m 
+2018-06-04 09:49:21 [nioEventLoopGroup-3-6] INFO  Cloud.Server.ServerHandler - [36m Incoming message class Cloud.Common.MessageType.AuthMessage[0m 
+2018-06-04 09:49:21 [nioEventLoopGroup-3-6] INFO  Cloud.Server.SQLConnect - User LoginTest authorized
+2018-06-04 09:49:21 [nioEventLoopGroup-3-6] INFO  Cloud.Server.ServerHandler - Сlient authorized by name: [32m LoginTest [0m 
+2018-06-04 09:50:00 [nioEventLoopGroup-3-7] INFO  Cloud.Server.ServerHandler - [32m Client connected from: localhost/127.0.0.1[0m 
+2018-06-04 09:50:00 [nioEventLoopGroup-3-7] INFO  Cloud.Server.ServerHandler - [36m Incoming message class Cloud.Common.MessageType.AuthMessage[0m 
+2018-06-04 09:50:00 [nioEventLoopGroup-3-7] INFO  Cloud.Server.SQLConnect - User LoginTest authorized
+2018-06-04 09:50:00 [nioEventLoopGroup-3-7] INFO  Cloud.Server.ServerHandler - Сlient authorized by name: [32m LoginTest [0m 
+2018-06-04 09:50:44 [nioEventLoopGroup-3-8] INFO  Cloud.Server.ServerHandler - [32m Client connected from: localhost/127.0.0.1[0m 
+2018-06-04 09:50:44 [nioEventLoopGroup-3-8] INFO  Cloud.Server.ServerHandler - [36m Incoming message class Cloud.Common.MessageType.AuthMessage[0m 
+2018-06-04 09:50:44 [nioEventLoopGroup-3-8] INFO  Cloud.Server.SQLConnect - User LoginTest authorized
+2018-06-04 09:50:44 [nioEventLoopGroup-3-8] INFO  Cloud.Server.ServerHandler - Сlient authorized by name: [32m LoginTest [0m 
+2018-06-04 09:51:04 [nioEventLoopGroup-3-1] INFO  Cloud.Server.ServerHandler - [32m Client connected from: localhost/127.0.0.1[0m 
+2018-06-04 09:51:04 [nioEventLoopGroup-3-1] INFO  Cloud.Server.ServerHandler - [36m Incoming message class Cloud.Common.MessageType.AuthMessage[0m 
+2018-06-04 09:51:04 [nioEventLoopGroup-3-1] INFO  Cloud.Server.SQLConnect - User LoginTest authorized
+2018-06-04 09:51:04 [nioEventLoopGroup-3-1] INFO  Cloud.Server.ServerHandler - Сlient authorized by name: [32m LoginTest [0m 
+2018-06-04 09:51:19 [nioEventLoopGroup-3-2] INFO  Cloud.Server.ServerHandler - [32m Client connected from: localhost/127.0.0.1[0m 
+2018-06-04 09:51:19 [nioEventLoopGroup-3-2] INFO  Cloud.Server.ServerHandler - [36m Incoming message class Cloud.Common.MessageType.AuthMessage[0m 
+2018-06-04 09:51:19 [nioEventLoopGroup-3-2] INFO  Cloud.Server.SQLConnect - User LoginTest authorized
+2018-06-04 09:51:19 [nioEventLoopGroup-3-2] INFO  Cloud.Server.ServerHandler - Сlient authorized by name: [32m LoginTest [0m 
+2018-06-04 09:52:28 [nioEventLoopGroup-3-3] INFO  Cloud.Server.ServerHandler - [32m Client connected from: localhost/127.0.0.1[0m 
+2018-06-04 09:52:28 [nioEventLoopGroup-3-3] INFO  Cloud.Server.ServerHandler - [36m Incoming message class Cloud.Common.MessageType.AuthMessage[0m 
+2018-06-04 09:52:28 [nioEventLoopGroup-3-3] INFO  Cloud.Server.SQLConnect - User LoginTest authorized
+2018-06-04 09:52:28 [nioEventLoopGroup-3-3] INFO  Cloud.Server.ServerHandler - Сlient authorized by name: [32m LoginTest [0m 
+2018-06-04 09:55:51 [nioEventLoopGroup-3-4] INFO  Cloud.Server.ServerHandler - [32m Client connected from: localhost/127.0.0.1[0m 
+2018-06-04 09:55:51 [nioEventLoopGroup-3-4] INFO  Cloud.Server.ServerHandler - [36m Incoming message class Cloud.Common.MessageType.AuthMessage[0m 
+2018-06-04 09:55:51 [nioEventLoopGroup-3-4] INFO  Cloud.Server.SQLConnect - User LoginTest authorized
+2018-06-04 09:55:51 [nioEventLoopGroup-3-4] INFO  Cloud.Server.ServerHandler - Сlient authorized by name: [32m LoginTest [0m 
+2018-06-04 09:56:26 [nioEventLoopGroup-3-5] INFO  Cloud.Server.ServerHandler - [32m Client connected from: localhost/127.0.0.1[0m 
+2018-06-04 09:56:26 [nioEventLoopGroup-3-5] INFO  Cloud.Server.ServerHandler - [36m Incoming message class Cloud.Common.MessageType.AuthMessage[0m 
+2018-06-04 09:56:26 [nioEventLoopGroup-3-5] INFO  Cloud.Server.SQLConnect - User LoginTest authorized
+2018-06-04 09:56:26 [nioEventLoopGroup-3-5] INFO  Cloud.Server.ServerHandler - Сlient authorized by name: [32m LoginTest [0m 
+2018-06-04 10:02:50 [nioEventLoopGroup-3-6] INFO  Cloud.Server.ServerHandler - [32m Client connected from: localhost/127.0.0.1[0m 
+2018-06-04 10:02:50 [nioEventLoopGroup-3-6] INFO  Cloud.Server.ServerHandler - [36m Incoming message class Cloud.Common.MessageType.AuthMessage[0m 
+2018-06-04 10:02:50 [nioEventLoopGroup-3-6] INFO  Cloud.Server.SQLConnect - User LoginTest authorized
+2018-06-04 10:02:50 [nioEventLoopGroup-3-6] INFO  Cloud.Server.ServerHandler - Сlient authorized by name: [32m LoginTest [0m 
+2018-06-04 10:23:48 [nioEventLoopGroup-3-7] INFO  Cloud.Server.ServerHandler - [32m Client connected from: localhost/127.0.0.1[0m 
+2018-06-04 10:23:48 [nioEventLoopGroup-3-7] INFO  Cloud.Server.ServerHandler - [36m Incoming message class Cloud.Common.MessageType.AuthMessage[0m 
+2018-06-04 10:23:48 [nioEventLoopGroup-3-7] INFO  Cloud.Server.SQLConnect - User LoginTest authorized
+2018-06-04 10:23:48 [nioEventLoopGroup-3-7] INFO  Cloud.Server.ServerHandler - Сlient authorized by name: [32m LoginTest [0m 
+2018-06-04 10:26:09 [nioEventLoopGroup-3-8] INFO  Cloud.Server.ServerHandler - [32m Client connected from: localhost/127.0.0.1[0m 
+2018-06-04 10:26:09 [nioEventLoopGroup-3-8] INFO  Cloud.Server.ServerHandler - [36m Incoming message class Cloud.Common.MessageType.AuthMessage[0m 
+2018-06-04 10:26:09 [nioEventLoopGroup-3-8] INFO  Cloud.Server.SQLConnect - User LoginTest authorized
+2018-06-04 10:26:09 [nioEventLoopGroup-3-8] INFO  Cloud.Server.ServerHandler - Сlient authorized by name: [32m LoginTest [0m 
+2018-06-04 10:28:06 [nioEventLoopGroup-3-1] INFO  Cloud.Server.ServerHandler - [32m Client connected from: localhost/127.0.0.1[0m 
+2018-06-04 10:28:06 [nioEventLoopGroup-3-1] INFO  Cloud.Server.ServerHandler - [36m Incoming message class Cloud.Common.MessageType.AuthMessage[0m 
+2018-06-04 10:28:06 [nioEventLoopGroup-3-1] INFO  Cloud.Server.SQLConnect - User LoginTest authorized
+2018-06-04 10:28:06 [nioEventLoopGroup-3-1] INFO  Cloud.Server.ServerHandler - Сlient authorized by name: [32m LoginTest [0m 
+2018-06-04 10:30:22 [nioEventLoopGroup-3-2] INFO  Cloud.Server.ServerHandler - [32m Client connected from: localhost/127.0.0.1[0m 
+2018-06-04 10:30:23 [nioEventLoopGroup-3-3] INFO  Cloud.Server.ServerHandler - [32m Client connected from: localhost/127.0.0.1[0m 
+2018-06-04 10:30:23 [nioEventLoopGroup-3-4] INFO  Cloud.Server.ServerHandler - [32m Client connected from: localhost/127.0.0.1[0m 
+2018-06-04 10:30:23 [nioEventLoopGroup-3-5] INFO  Cloud.Server.ServerHandler - [32m Client connected from: localhost/127.0.0.1[0m 
+2018-06-04 10:30:23 [nioEventLoopGroup-3-6] INFO  Cloud.Server.ServerHandler - [32m Client connected from: localhost/127.0.0.1[0m 
+2018-06-04 10:30:24 [nioEventLoopGroup-3-7] INFO  Cloud.Server.ServerHandler - [32m Client connected from: localhost/127.0.0.1[0m 
+2018-06-04 10:30:24 [nioEventLoopGroup-3-8] INFO  Cloud.Server.ServerHandler - [32m Client connected from: localhost/127.0.0.1[0m 
+2018-06-04 10:30:24 [nioEventLoopGroup-3-1] INFO  Cloud.Server.ServerHandler - [32m Client connected from: localhost/127.0.0.1[0m 
+2018-06-04 10:30:55 [nioEventLoopGroup-3-2] INFO  Cloud.Server.ServerHandler - [32m Client connected from: localhost/127.0.0.1[0m 
+2018-06-04 10:30:57 [nioEventLoopGroup-3-3] INFO  Cloud.Server.ServerHandler - [32m Client connected from: localhost/127.0.0.1[0m 
+2018-06-04 10:36:56 [nioEventLoopGroup-3-4] INFO  Cloud.Server.ServerHandler - [32m Client connected from: localhost/127.0.0.1[0m 
+2018-06-04 10:36:56 [nioEventLoopGroup-3-4] INFO  Cloud.Server.ServerHandler - [36m Incoming message class Cloud.Common.MessageType.AuthMessage[0m 
+2018-06-04 10:36:56 [nioEventLoopGroup-3-4] ERROR Cloud.Server.SQLConnect - User LoginTest cannot authorized
+2018-06-04 10:36:56 [nioEventLoopGroup-3-4] ERROR Cloud.Server.ServerHandler - [31m Client cant be authorized by login: LoginTest[0m 
+2018-06-04 10:36:57 [nioEventLoopGroup-3-5] INFO  Cloud.Server.ServerHandler - [32m Client connected from: localhost/127.0.0.1[0m 
+2018-06-04 10:36:57 [nioEventLoopGroup-3-5] INFO  Cloud.Server.ServerHandler - [36m Incoming message class Cloud.Common.MessageType.AuthMessage[0m 
+2018-06-04 10:36:57 [nioEventLoopGroup-3-5] ERROR Cloud.Server.SQLConnect - User LoginTest cannot authorized
+2018-06-04 10:36:57 [nioEventLoopGroup-3-5] ERROR Cloud.Server.ServerHandler - [31m Client cant be authorized by login: LoginTest[0m 
+2018-06-04 10:36:57 [nioEventLoopGroup-3-6] INFO  Cloud.Server.ServerHandler - [32m Client connected from: localhost/127.0.0.1[0m 
+2018-06-04 10:36:57 [nioEventLoopGroup-3-6] INFO  Cloud.Server.ServerHandler - [36m Incoming message class Cloud.Common.MessageType.AuthMessage[0m 
+2018-06-04 10:36:57 [nioEventLoopGroup-3-6] ERROR Cloud.Server.SQLConnect - User LoginTest cannot authorized
+2018-06-04 10:36:57 [nioEventLoopGroup-3-6] ERROR Cloud.Server.ServerHandler - [31m Client cant be authorized by login: LoginTest[0m 
+2018-06-04 10:41:35 [nioEventLoopGroup-3-7] INFO  Cloud.Server.ServerHandler - [32m Client connected from: localhost/127.0.0.1[0m 
+2018-06-04 10:41:35 [nioEventLoopGroup-3-7] INFO  Cloud.Server.ServerHandler - [36m Incoming message class Cloud.Common.MessageType.AuthMessage[0m 
+2018-06-04 10:41:35 [nioEventLoopGroup-3-7] ERROR Cloud.Server.SQLConnect - User LoginTest cannot authorized
+2018-06-04 10:41:35 [nioEventLoopGroup-3-7] ERROR Cloud.Server.ServerHandler - [31m Client cant be authorized by login: LoginTest[0m 
+2018-06-04 10:41:36 [nioEventLoopGroup-3-8] INFO  Cloud.Server.ServerHandler - [32m Client connected from: localhost/127.0.0.1[0m 
+2018-06-04 10:41:36 [nioEventLoopGroup-3-8] INFO  Cloud.Server.ServerHandler - [36m Incoming message class Cloud.Common.MessageType.AuthMessage[0m 
+2018-06-04 10:41:36 [nioEventLoopGroup-3-8] ERROR Cloud.Server.SQLConnect - User LoginTest cannot authorized
+2018-06-04 10:41:36 [nioEventLoopGroup-3-8] ERROR Cloud.Server.ServerHandler - [31m Client cant be authorized by login: LoginTest[0m 
+2018-06-04 10:42:34 [main] INFO  Cloud.Server.SQLConnect - Error while connect to BD: false
+2018-06-04 10:42:43 [nioEventLoopGroup-3-1] INFO  Cloud.Server.ServerHandler - [32m Client connected from: localhost/127.0.0.1[0m 
+2018-06-04 10:42:43 [nioEventLoopGroup-3-1] INFO  Cloud.Server.ServerHandler - [36m Incoming message class Cloud.Common.MessageType.AuthMessage[0m 
+2018-06-04 10:42:43 [nioEventLoopGroup-3-1] INFO  Cloud.Server.SQLConnect - User LoginTest authorized
+2018-06-04 10:42:43 [nioEventLoopGroup-3-1] INFO  Cloud.Server.ServerHandler - Сlient authorized by name: [32m LoginTest [0m 
+2018-06-04 10:42:54 [nioEventLoopGroup-3-2] INFO  Cloud.Server.ServerHandler - [32m Client connected from: localhost/127.0.0.1[0m 
+2018-06-04 10:42:54 [nioEventLoopGroup-3-2] INFO  Cloud.Server.ServerHandler - [36m Incoming message class Cloud.Common.MessageType.AuthMessage[0m 
+2018-06-04 10:42:54 [nioEventLoopGroup-3-2] ERROR Cloud.Server.SQLConnect - User LoginTest cannot authorized
+2018-06-04 10:42:54 [nioEventLoopGroup-3-2] ERROR Cloud.Server.ServerHandler - [31m Client cant be authorized by login: LoginTest[0m 
+2018-06-04 10:49:41 [nioEventLoopGroup-3-3] INFO  Cloud.Server.ServerHandler - [32m Client connected from: localhost/127.0.0.1[0m 
+2018-06-04 10:49:41 [nioEventLoopGroup-3-3] INFO  Cloud.Server.ServerHandler - [36m Incoming message class Cloud.Common.MessageType.AuthMessage[0m 
+2018-06-04 10:49:41 [nioEventLoopGroup-3-3] INFO  Cloud.Server.SQLConnect - User LoginTest authorized
+2018-06-04 10:49:41 [nioEventLoopGroup-3-3] INFO  Cloud.Server.ServerHandler - Сlient authorized by name: [32m LoginTest [0m 
+2018-06-04 11:37:10 [nioEventLoopGroup-3-4] INFO  Cloud.Server.ServerHandler - [32m Client connected from: localhost/127.0.0.1[0m 
+2018-06-04 11:37:10 [nioEventLoopGroup-3-4] INFO  Cloud.Server.ServerHandler - [36m Incoming message class Cloud.Common.MessageType.AuthMessage[0m 
+2018-06-04 11:37:10 [nioEventLoopGroup-3-4] INFO  Cloud.Server.SQLConnect - User LoginTest authorized
+2018-06-04 11:37:10 [nioEventLoopGroup-3-4] INFO  Cloud.Server.ServerHandler - Сlient authorized by name: [32m LoginTest [0m 
+2018-06-04 11:38:27 [nioEventLoopGroup-3-5] INFO  Cloud.Server.ServerHandler - [32m Client connected from: localhost/127.0.0.1[0m 
+2018-06-04 11:38:27 [nioEventLoopGroup-3-5] INFO  Cloud.Server.ServerHandler - [36m Incoming message class Cloud.Common.MessageType.AuthMessage[0m 
+2018-06-04 11:38:27 [nioEventLoopGroup-3-5] INFO  Cloud.Server.SQLConnect - User LoginTest authorized
+2018-06-04 11:38:27 [nioEventLoopGroup-3-5] INFO  Cloud.Server.ServerHandler - Сlient authorized by name: [32m LoginTest [0m 
+2018-06-04 11:44:37 [nioEventLoopGroup-3-6] INFO  Cloud.Server.ServerHandler - [32m Client connected from: localhost/127.0.0.1[0m 
+2018-06-04 11:44:37 [nioEventLoopGroup-3-6] INFO  Cloud.Server.ServerHandler - [36m Incoming message class Cloud.Common.MessageType.AuthMessage[0m 
+2018-06-04 11:44:37 [nioEventLoopGroup-3-6] INFO  Cloud.Server.SQLConnect - User LoginTest authorized
+2018-06-04 11:44:37 [nioEventLoopGroup-3-6] INFO  Cloud.Server.ServerHandler - Сlient authorized by name: [32m LoginTest [0m 
+2018-06-04 11:49:53 [nioEventLoopGroup-3-7] INFO  Cloud.Server.ServerHandler - [32m Client connected from: localhost/127.0.0.1[0m 
+2018-06-04 11:49:53 [nioEventLoopGroup-3-7] INFO  Cloud.Server.ServerHandler - [36m Incoming message class Cloud.Common.MessageType.AuthMessage[0m 
+2018-06-04 11:49:53 [nioEventLoopGroup-3-7] INFO  Cloud.Server.SQLConnect - User LoginTest authorized
+2018-06-04 11:49:53 [nioEventLoopGroup-3-7] INFO  Cloud.Server.ServerHandler - Сlient authorized by name: [32m LoginTest [0m 
+2018-06-04 11:54:24 [nioEventLoopGroup-3-8] INFO  Cloud.Server.ServerHandler - [32m Client connected from: localhost/127.0.0.1[0m 
+2018-06-04 11:54:24 [nioEventLoopGroup-3-8] INFO  Cloud.Server.ServerHandler - [36m Incoming message class Cloud.Common.MessageType.AuthMessage[0m 
+2018-06-04 11:54:24 [nioEventLoopGroup-3-8] INFO  Cloud.Server.SQLConnect - User LoginTest authorized
+2018-06-04 11:54:24 [nioEventLoopGroup-3-8] INFO  Cloud.Server.ServerHandler - Сlient authorized by name: [32m LoginTest [0m 
+2018-06-04 11:58:53 [nioEventLoopGroup-3-1] INFO  Cloud.Server.ServerHandler - [32m Client connected from: localhost/127.0.0.1[0m 
+2018-06-04 11:58:53 [nioEventLoopGroup-3-1] INFO  Cloud.Server.ServerHandler - [36m Incoming message class Cloud.Common.MessageType.AuthMessage[0m 
+2018-06-04 11:58:53 [nioEventLoopGroup-3-1] INFO  Cloud.Server.SQLConnect - User LoginTest authorized
+2018-06-04 11:58:53 [nioEventLoopGroup-3-1] INFO  Cloud.Server.ServerHandler - Сlient authorized by name: [32m LoginTest [0m 
+2018-06-04 12:56:37 [nioEventLoopGroup-3-2] INFO  Cloud.Server.ServerHandler - [32m Client connected from: localhost/127.0.0.1[0m 
+2018-06-04 12:56:37 [nioEventLoopGroup-3-2] INFO  Cloud.Server.ServerHandler - [36m Incoming message class Cloud.Common.MessageType.AuthMessage[0m 
+2018-06-04 12:56:37 [nioEventLoopGroup-3-2] INFO  Cloud.Server.SQLConnect - User LoginTest authorized
+2018-06-04 12:56:37 [nioEventLoopGroup-3-2] INFO  Cloud.Server.ServerHandler - Сlient authorized by name: [32m LoginTest [0m 
+2018-06-04 12:58:11 [nioEventLoopGroup-3-3] INFO  Cloud.Server.ServerHandler - [32m Client connected from: localhost/127.0.0.1[0m 
+2018-06-04 12:58:11 [nioEventLoopGroup-3-3] INFO  Cloud.Server.ServerHandler - [36m Incoming message class Cloud.Common.MessageType.AuthMessage[0m 
+2018-06-04 12:58:11 [nioEventLoopGroup-3-3] INFO  Cloud.Server.SQLConnect - User LoginTest authorized
+2018-06-04 12:58:11 [nioEventLoopGroup-3-3] INFO  Cloud.Server.ServerHandler - Сlient authorized by name: [32m LoginTest [0m 
+2018-06-04 12:59:23 [nioEventLoopGroup-3-4] INFO  Cloud.Server.ServerHandler - [32m Client connected from: localhost/127.0.0.1[0m 
+2018-06-04 12:59:23 [nioEventLoopGroup-3-4] INFO  Cloud.Server.ServerHandler - [36m Incoming message class Cloud.Common.MessageType.AuthMessage[0m 
+2018-06-04 12:59:23 [nioEventLoopGroup-3-4] INFO  Cloud.Server.SQLConnect - User LoginTest authorized
+2018-06-04 12:59:23 [nioEventLoopGroup-3-4] INFO  Cloud.Server.ServerHandler - Сlient authorized by name: [32m LoginTest [0m 
+2018-06-04 13:02:19 [nioEventLoopGroup-3-5] INFO  Cloud.Server.ServerHandler - [32m Client connected from: localhost/127.0.0.1[0m 
+2018-06-04 13:02:19 [nioEventLoopGroup-3-5] INFO  Cloud.Server.ServerHandler - [36m Incoming message class Cloud.Common.MessageType.AuthMessage[0m 
+2018-06-04 13:02:19 [nioEventLoopGroup-3-5] INFO  Cloud.Server.SQLConnect - User LoginTest authorized
+2018-06-04 13:02:19 [nioEventLoopGroup-3-5] INFO  Cloud.Server.ServerHandler - Сlient authorized by name: [32m LoginTest [0m 
+2018-06-04 13:05:03 [nioEventLoopGroup-3-6] INFO  Cloud.Server.ServerHandler - [32m Client connected from: localhost/127.0.0.1[0m 
+2018-06-04 13:05:03 [nioEventLoopGroup-3-6] INFO  Cloud.Server.ServerHandler - [36m Incoming message class Cloud.Common.MessageType.AuthMessage[0m 
+2018-06-04 13:05:03 [nioEventLoopGroup-3-6] INFO  Cloud.Server.SQLConnect - User LoginTest authorized
+2018-06-04 13:05:03 [nioEventLoopGroup-3-6] INFO  Cloud.Server.ServerHandler - Сlient authorized by name: [32m LoginTest [0m 
+2018-06-04 13:05:59 [nioEventLoopGroup-3-7] INFO  Cloud.Server.ServerHandler - [32m Client connected from: localhost/127.0.0.1[0m 
+2018-06-04 13:05:59 [nioEventLoopGroup-3-7] INFO  Cloud.Server.ServerHandler - [36m Incoming message class Cloud.Common.MessageType.AuthMessage[0m 
+2018-06-04 13:05:59 [nioEventLoopGroup-3-7] INFO  Cloud.Server.SQLConnect - User LoginTest authorized
+2018-06-04 13:05:59 [nioEventLoopGroup-3-7] INFO  Cloud.Server.ServerHandler - Сlient authorized by name: [32m LoginTest [0m 
+2018-06-04 13:08:04 [nioEventLoopGroup-3-8] INFO  Cloud.Server.ServerHandler - [32m Client connected from: localhost/127.0.0.1[0m 
+2018-06-04 13:08:04 [nioEventLoopGroup-3-8] INFO  Cloud.Server.ServerHandler - [36m Incoming message class Cloud.Common.MessageType.AuthMessage[0m 
+2018-06-04 13:08:04 [nioEventLoopGroup-3-8] INFO  Cloud.Server.SQLConnect - User LoginTest authorized
+2018-06-04 13:08:04 [nioEventLoopGroup-3-8] INFO  Cloud.Server.ServerHandler - Сlient authorized by name: [32m LoginTest [0m 
+2018-06-04 13:09:49 [nioEventLoopGroup-3-1] INFO  Cloud.Server.ServerHandler - [32m Client connected from: localhost/127.0.0.1[0m 
+2018-06-04 13:09:49 [nioEventLoopGroup-3-1] INFO  Cloud.Server.ServerHandler - [36m Incoming message class Cloud.Common.MessageType.AuthMessage[0m 
+2018-06-04 13:09:49 [nioEventLoopGroup-3-1] INFO  Cloud.Server.SQLConnect - User LoginTest authorized
+2018-06-04 13:09:49 [nioEventLoopGroup-3-1] INFO  Cloud.Server.ServerHandler - Сlient authorized by name: [32m LoginTest [0m 
+2018-06-04 13:11:06 [main] INFO  Cloud.Server.SQLConnect - Error while connect to BD: false
+2018-06-04 13:11:17 [nioEventLoopGroup-3-1] INFO  Cloud.Server.ServerHandler - [32m Client connected from: localhost/127.0.0.1[0m 
+2018-06-04 13:11:17 [nioEventLoopGroup-3-1] INFO  Cloud.Server.ServerHandler - [36m Incoming message class Cloud.Common.MessageType.AuthMessage[0m 
+2018-06-04 13:11:17 [nioEventLoopGroup-3-1] INFO  Cloud.Server.SQLConnect - User LoginTest authorized
+2018-06-04 13:11:17 [nioEventLoopGroup-3-1] INFO  Cloud.Server.ServerHandler - Сlient authorized by name: [32m LoginTest [0m 

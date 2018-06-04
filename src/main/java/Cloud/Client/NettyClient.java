@@ -9,18 +9,24 @@ import io.netty.handler.codec.serialization.ClassResolvers;
 import io.netty.handler.codec.serialization.ObjectDecoder;
 import io.netty.handler.codec.serialization.ObjectEncoder;
 
-public final class NettyClientDoNotUse {
+public final class NettyClient {
 
     static final String HOST = System.getProperty("host", "127.0.0.1");
     static final int PORT = Integer.parseInt(System.getProperty("port", "8189"));
     static final int SIZE = Integer.parseInt(System.getProperty("size", "256"));
     private static final int MAX_OBJ_SIZE = 1024 * 1024 * 100; // 10 mb
+    private static ClientHandler clientHandler;
 
+    public static ClientHandler getClientHandler(){
+        return clientHandler;
+    }
 
-    public static void ClientRun(Controller controller) throws Exception {
+    public static ClientHandler ClientRun(Controller controller) throws Exception {
 
         // Configure the client.
         EventLoopGroup group = new NioEventLoopGroup();
+        clientHandler = new ClientHandler(controller);
+
         try {
             Bootstrap b = new Bootstrap();
             b.group(group)
@@ -35,7 +41,7 @@ public final class NettyClientDoNotUse {
                             p.addLast(
                                     new ObjectDecoder(MAX_OBJ_SIZE, ClassResolvers.cacheDisabled(null)),
                                     new ObjectEncoder(),
-                                    new ClientHandler(controller));
+                                    clientHandler);
                         }
                     });
 
@@ -48,5 +54,6 @@ public final class NettyClientDoNotUse {
             // Shut down the event loop to terminate all threads.
             group.shutdownGracefully();
         }
+        return clientHandler;
     }
 }
