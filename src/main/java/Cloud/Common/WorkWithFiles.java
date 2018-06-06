@@ -13,7 +13,7 @@ import java.util.List;
 public class WorkWithFiles {
 
 
-    public List<String> startSearchFilenameHashDate(String directory) {
+    public static List<String> startSearchFilenameHashDate(String directory) {
         List<String> fileNames = new ArrayList<>();
         try {
             DirectoryStream<Path> directoryStream = Files.newDirectoryStream(Paths.get(directory));
@@ -24,6 +24,27 @@ public class WorkWithFiles {
             e.printStackTrace();
         }
         return fileNames;
+    }
+
+    public static void checkDir(String string){
+        if (!Files.isDirectory(Paths.get(string))) {
+            try {
+                Files.createDirectories(Paths.get(string));
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
+    }
+
+    public static boolean deleteFile(String string){
+        Path path = Paths.get(string);
+        try {
+            Files.deleteIfExists(path);
+            return true;
+        } catch (IOException e) {
+            e.printStackTrace();
+            return false;
+        }
     }
 
 }

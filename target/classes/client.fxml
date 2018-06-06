@@ -39,9 +39,9 @@
             </Label>
             <ListView fx:id="cloudList" VBox.vgrow="ALWAYS" />
             <HBox fx:id="actionPanel2" managed="false" visible="false">
-                <Button maxWidth="Infinity" text="Скачать файл" HBox.hgrow="ALWAYS" />
-                <Button maxWidth="Infinity" text="Удалить файл" HBox.hgrow="ALWAYS" />
-                <Button maxWidth="Infinity" text="Обновить" HBox.hgrow="ALWAYS" />
+                <Button maxWidth="Infinity" onAction="#cloudDownloadFile" text="Скачать файл" HBox.hgrow="ALWAYS" />
+                <Button maxWidth="Infinity" onAction="#cloudDeleteFile" text="Удалить файл" HBox.hgrow="ALWAYS" />
+                <Button maxWidth="Infinity" onAction="#cloudRefreshList" text="Обновить" HBox.hgrow="ALWAYS" />
             </HBox>
         </VBox>
     </HBox>

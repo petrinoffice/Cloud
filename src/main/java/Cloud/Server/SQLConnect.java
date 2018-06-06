@@ -1,16 +1,26 @@
 package Cloud.Server;
 
+import Cloud.Common.Color;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import java.sql.*;
 
 public class SQLConnect {
+    /**
+     * Класс SQLConnect
+     * В классе реализаванн основной функционал работы с базой данных
+     * При создании экземпляра класса будуд задействованы методы:
+     * connect() - создание JDBS коннекта к базе данных
+     * createBD() - если БД не существует то она будет созданна
+     * createTestUser() - создание тестового пользователя
+     *
+     * Основной метод checkAvtorisation он отвечает за проверку полученных авторизационных данных.
+     * В случае успеха метод вернет TRUE
+     */
     private static Connection connection;
     private static Statement statement;
     private static Logger logger = LoggerFactory.getLogger(SQLConnect.class);
-
-
 
     SQLConnect(){
         try {
@@ -30,7 +40,6 @@ public class SQLConnect {
         }
     }
 
-
     private static void createTestUser() {
         try {
             statement.executeUpdate("INSERT INTO Users (User,Pass) VALUES ('LoginTest','taram pam pam');");
@@ -38,7 +47,6 @@ public class SQLConnect {
 
         } catch (SQLException e) {
             logger.error("Tests user already exist in BD");
-
         }
     }
 
@@ -66,7 +74,7 @@ public class SQLConnect {
                 //System.out.println(rs.getString(1) + " " +
                 //        rs.getString(2) + " " +
                 //        rs.getString(3));
-                logger.info("User "+login+" authorized");
+                logger.info("User: "+Color.ANSI_BLUE.getColor()+login+Color.ANSI_RESET.getColor()+" authorized");
                 return true;
             }
         } catch (SQLException e) {
@@ -82,8 +90,6 @@ public class SQLConnect {
         Class.forName("org.sqlite.JDBC");
         connection = DriverManager.getConnection("jdbc:sqlite:Server.db");
         statement = connection.createStatement();
-
-        logger.info("Error while connect to BD: "+connection.isClosed());
     }
 
     private static void disconnect(){

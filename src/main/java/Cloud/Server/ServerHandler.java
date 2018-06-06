@@ -1,9 +1,8 @@
 package Cloud.Server;
 
 import Cloud.Common.Color;
-import Cloud.Common.MessageType.AuthMessage;
-import Cloud.Common.MessageType.CommonMessage;
-import Cloud.Common.MessageType.FileDataMessage;
+import Cloud.Common.MessageType.*;
+import Cloud.Common.WorkWithFiles;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.ChannelInboundHandlerAdapter;
 import io.netty.util.ReferenceCountUtil;
@@ -11,20 +10,19 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import java.net.InetAddress;
+import java.nio.file.Files;
+import java.nio.file.Paths;
+import java.nio.file.StandardOpenOption;
 
 public class ServerHandler extends ChannelInboundHandlerAdapter {
     private static Logger logger = LoggerFactory.getLogger(ServerHandler.class);
     private String clientLogin = null;
-    private boolean isNotAuth = true;
+    private String rootPath = "File/ServerFile/";
+    private String clientPath;
+
 
     @Override
     public void channelActive(ChannelHandlerContext ctx) throws Exception {
-        logger.info(Color.ANSI_GREEN.getColor()+"Client connected from: "+ InetAddress.getLoopbackAddress()+Color.ANSI_RESET.getColor());
-        //System.out.println("Client connected..."+ InetAddress.getLoopbackAddress());
-        // Send greeting for a new connection.
-        // ctx.write("Welcome to " + InetAddress.getLocalHost().getHostName() + "!\r\n");
-        // ctx.write("It is " + new Date() + " now.\r\n");
-        // ctx.flush();
     }
 
     @Override
@@ -32,38 +30,48 @@ public class ServerHandler extends ChannelInboundHandlerAdapter {
 
         try {
             if (msg == null) return;
+            logger.info(Color.ANSI_CYAN.getColor() + "Incoming message " + msg.getClass() + Color.ANSI_RESET.getColor());
 
-            logger.info(Color.ANSI_CYAN.getColor()+"Incoming message " + msg.getClass()+Color.ANSI_RESET.getColor());
-
-            if(isNotAuth){
-                if (msg instanceof AuthMessage){
-                    if(SQLConnect.checkAvtorisation(((AuthMessage) msg).getLogin(), ((AuthMessage) msg).getPass())){
-                        clientLogin = ((AuthMessage) msg).getLogin();
-                        isNotAuth = false;
-
-                        logger.info("Сlient authorized by name: " + Color.ANSI_GREEN.getColor() + clientLogin + " " + Color.ANSI_RESET.getColor());
-                        ctx.write(new CommonMessage(1));
-                        ctx.flush();
-
-                    }else {
-                        logger.error(Color.ANSI_RED.getColor()+"Client cant be authorized by login: "+ ((AuthMessage) msg).getLogin()+ Color.ANSI_RESET.getColor());
-                        ctx.writeAndFlush(new CommonMessage(3));
-                        isNotAuth = true;
-                    }
-                }
-            }else if(!isNotAuth){
-                if(msg instanceof FileDataMessage) {
-                    System.out.println(Color.ANSI_RED.getColor() + " AAAAAA "+ Color.ANSI_RESET.getColor());
-                }
-            } else {
-                logger.error(Color.ANSI_RED.getColor() + "Server received wrong object!"+ Color.ANSI_RESET.getColor());
+            if (clientLogin == null & msg instanceof AuthMessage){
+                clientLogin = ((AuthMessage) msg).getLogin();
+                clientPath = rootPath+clientLogin+"/";
                 return;
             }
 
+            if (msg instanceof FileDataMessage) {
+                FileDataMessage fdm = (FileDataMessage) msg;
+                WorkWithFiles.checkDir(clientPath);
+                Files.write(Paths.get(clientPath+fdm.getFileName()),fdm.getData(), StandardOpenOption.CREATE);
+                ctx.writeAndFlush(new FileListMessage(WorkWithFiles.startSearchFilenameHashDate(clientPath)));
+                return;
+
+            } if(msg instanceof CommonMessage){
+                if (((CommonMessage) msg).getCmd() == 4) {
+                    ctx.writeAndFlush(new FileListMessage(WorkWithFiles.startSearchFilenameHashDate(clientPath)));
+                    return;
+                } else if (((CommonMessage) msg).getCmd() == 5) {
+                    if (WorkWithFiles.deleteFile(clientPath+((CommonMessage) msg).getAttachment()[0])){
+                        logger.info("File " + ((CommonMessage) msg).getAttachment()[0] + " deleted");
+                        ctx.writeAndFlush(new FileListMessage(WorkWithFiles.startSearchFilenameHashDate(clientPath)));
+                        return;
+                    } else {
+                        logger.error("Can`t delete " + ((CommonMessage) msg).getAttachment()[0] + " file");
+                        return;
+                    }
+                } else if (((CommonMessage) msg).getCmd() == 6){
+                    ctx.writeAndFlush(new FileDataMessage(clientPath+((CommonMessage) msg).getAttachment()[0]));
+                    return;
+                }
+
+            } else {
+                logger.error(Color.ANSI_RED.getColor() + "ServerHandler received wrong object: " + msg.getClass() + Color.ANSI_RESET.getColor());
+                return;
+            }
         } finally {
             ReferenceCountUtil.release(msg);
         }
     }
+
 
     @Override
     public void channelReadComplete(ChannelHandlerContext ctx) throws Exception {
@@ -76,5 +84,4 @@ public class ServerHandler extends ChannelInboundHandlerAdapter {
         cause.printStackTrace();
         ctx.close();
     }
-
 }
