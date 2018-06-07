@@ -6,7 +6,9 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 
 public class FileDataMessage implements Serializable {
-
+    /**
+     * Класс FileDataMessage отвечает передачу файла
+     */
     private String fileName;
     private  long size;
     private byte[] data;

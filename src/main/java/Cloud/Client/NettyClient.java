@@ -14,7 +14,7 @@ public final class NettyClient {
     static final String HOST = System.getProperty("host", "127.0.0.1");
     static final int PORT = Integer.parseInt(System.getProperty("port", "8189"));
     static final int SIZE = Integer.parseInt(System.getProperty("size", "256"));
-    private static final int MAX_OBJ_SIZE = 1024 * 1024 * 100; // 10 mb
+    static final int MAX_OBJ_SIZE = 1024 * 1024 * 100; // 10 mb
     private static ClientHandler clientHandler;
 
     public static ClientHandler getClientHandler(){

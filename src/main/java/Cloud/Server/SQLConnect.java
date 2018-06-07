@@ -3,7 +3,6 @@ package Cloud.Server;
 import Cloud.Common.Color;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
 import java.sql.*;
 
 public class SQLConnect {
@@ -15,7 +14,7 @@ public class SQLConnect {
      * createBD() - если БД не существует то она будет созданна
      * createTestUser() - создание тестового пользователя
      *
-     * Основной метод checkAvtorisation он отвечает за проверку полученных авторизационных данных.
+     * Основной метод checkAutorisation он отвечает за проверку полученных авторизационных данных.
      * В случае успеха метод вернет TRUE
      */
     private static Connection connection;
@@ -30,8 +29,8 @@ public class SQLConnect {
 
             createTestUser();
 
-            checkAvtorisation("LoginTest","taram pam pam");
-            checkAvtorisation("1LoginTest","taram pam pam");
+            checkAutorisation("LoginTest","taram pam pam");
+            checkAutorisation("1LoginTest","taram pam pam");
 
         } catch (Exception e) {
             e.printStackTrace();
@@ -63,7 +62,11 @@ public class SQLConnect {
         }
     }
 
-    public static boolean checkAvtorisation(String login,String pass) {
+    public static boolean checkAutorisation(String login, String pass) {
+        /**
+         * Метод checkAutorisation возвращает TRUE в случае наличия в базе данных
+         * записи равной login и pass.
+         */
         try {
             PreparedStatement ps = connection.prepareStatement(
                     "SELECT ID,User,Pass FROM Users WHERE User = ? AND Pass = ?;");
@@ -71,9 +74,6 @@ public class SQLConnect {
             ps.setString(2,pass);
             ResultSet rs = ps.executeQuery();
             while (rs.next()) {
-                //System.out.println(rs.getString(1) + " " +
-                //        rs.getString(2) + " " +
-                //        rs.getString(3));
                 logger.info("User: "+Color.ANSI_BLUE.getColor()+login+Color.ANSI_RESET.getColor()+" authorized");
                 return true;
             }

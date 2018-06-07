@@ -9,11 +9,17 @@ import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.ChannelInboundHandlerAdapter;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
 import java.net.InetAddress;
 
 public class ServerAuthHandler extends ChannelInboundHandlerAdapter {
-    private static Logger logger = LoggerFactory.getLogger(ServerHandler.class);
+    /**
+     * Класс обработки сообщений ServerAuthHandler
+     * Основным функционалом класса является проверка авторизации подключаеммых пользователей
+     * В результате успешной авторизации переменной autorized присваивается значение TRUE
+     * и все последующие сообщения попадают в ServerHandler.
+     * При неуспешной авторизации клиент получит CommonMessage с кодом 3.
+     */
+    private static Logger logger = LoggerFactory.getLogger(ServerAuthHandler.class);
     private boolean autorized;
     private String clientLogin = null;
     private String clientPath;
@@ -29,7 +35,7 @@ public class ServerAuthHandler extends ChannelInboundHandlerAdapter {
 
         if (!autorized) {
             if (msg instanceof AuthMessage) {
-                if (SQLConnect.checkAvtorisation(((AuthMessage) msg).getLogin(), ((AuthMessage) msg).getPass())) {
+                if (SQLConnect.checkAutorisation(((AuthMessage) msg).getLogin(), ((AuthMessage) msg).getPass())) {
                     clientLogin = ((AuthMessage) msg).getLogin();
                     autorized = true;
 
@@ -53,5 +59,11 @@ public class ServerAuthHandler extends ChannelInboundHandlerAdapter {
         } else {
             ctx.fireChannelRead(msg);
         }
+    }
+    @Override
+    public void exceptionCaught(ChannelHandlerContext ctx, Throwable cause) throws Exception {
+        logger.error("Exception when work with message");
+        cause.printStackTrace();
+        ctx.close();
     }
 }

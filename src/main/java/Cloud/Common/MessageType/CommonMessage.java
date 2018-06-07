@@ -4,6 +4,10 @@ package Cloud.Common.MessageType;
 import java.io.Serializable;
 
 public class CommonMessage implements Serializable {
+    /**
+     * Класс CommonMessage отвечает за взаимодейсвие клиента и севера
+     * В классе предусмотрено 2 конструктора позволяющих передавать обьекты или только необходимый код
+     */
     private int cmd;
     private Object[] attachment;
 

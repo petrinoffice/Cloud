@@ -2,29 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f9ebb9e7-6af9-410e-9dd2-7d376a108ccc" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Cloud/Common/MessageType/FileListMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Cloud/Server/ServerAuthHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/debug.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Cloud/Client/ClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cloud/Client/ClientHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Cloud/Client/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cloud/Client/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Cloud/Client/NettyClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cloud/Client/NettyClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Cloud/Common/Color.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cloud/Common/Color.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Cloud/Common/MessageType/AuthMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cloud/Common/MessageType/AuthMessage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Cloud/Common/MessageType/CommonMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cloud/Common/MessageType/CommonMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Cloud/Common/MessageType/FileDataMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cloud/Common/MessageType/FileDataMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Cloud/Common/MessageType/FileListMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cloud/Common/MessageType/FileListMessage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Cloud/Common/WorkWithFiles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cloud/Common/WorkWithFiles.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Cloud/Server/SQLConnect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cloud/Server/SQLConnect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Cloud/Server/ServerAuthHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cloud/Server/ServerAuthHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Cloud/Server/ServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cloud/Server/ServerHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Cloud/Server/ServerMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cloud/Server/ServerMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/client.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/client.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Cloud/Client/ClientHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Cloud/Client/ClientHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Cloud/Client/Controller.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Cloud/Client/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Cloud/Client/Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Cloud/Client/NettyClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Cloud/Client/NettyClient.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Cloud/Common/Color.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Cloud/Common/Color.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Cloud/Common/MessageType/AuthMessage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Cloud/Common/MessageType/AuthMessage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Cloud/Common/MessageType/CommonMessage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Cloud/Common/MessageType/CommonMessage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Cloud/Common/MessageType/FileDataMessage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Cloud/Common/MessageType/FileDataMessage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Cloud/Common/MessageType/FileListMessage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Cloud/Common/MessageType/FileListMessage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Cloud/Common/WorkWithFiles.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Cloud/Common/WorkWithFiles.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Cloud/Server/SQLConnect.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Cloud/Server/SQLConnect.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Cloud/Server/ServerAuthHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Cloud/Server/ServerAuthHandler.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Cloud/Server/ServerHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Cloud/Server/ServerHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Cloud/Server/ServerMain$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Cloud/Server/ServerMain$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Cloud/Server/ServerMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Cloud/Server/ServerMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/client.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/client.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/logback.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -51,19 +56,22 @@
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="Server" type="feb32156:DbDataSourceImpl" />
       </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="Server [2]" type="feb32156:DbDataSourceImpl" />
+      </path>
     </expand>
     <select />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Controller.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Controller.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Cloud/Client/Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="411">
+              <caret line="55" selection-start-line="55" selection-end-line="55" />
               <folding>
-                <element signature="e#3141#3142#0" expanded="true" />
-                <element signature="e#3200#3201#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -72,17 +80,29 @@
       <file leaf-file-name="ServerHandler.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Cloud/Server/ServerHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="795">
-              <caret line="65" column="14" selection-start-line="65" selection-start-column="14" selection-end-line="65" selection-end-column="14" />
+            <state relative-caret-position="184">
+              <caret line="31" column="13" lean-forward="true" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ServerAuthHandler.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Cloud/Server/ServerAuthHandler.java">
+      <file leaf-file-name="ServerMain.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Cloud/Server/ServerMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
+            <state relative-caret-position="226">
+              <caret line="54" column="61" lean-forward="true" selection-start-line="54" selection-start-column="61" selection-end-line="54" selection-end-column="61" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WorkWithFiles.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Cloud/Common/WorkWithFiles.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="40" column="16" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -90,8 +110,8 @@
       <file leaf-file-name="FileListMessage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Cloud/Common/MessageType/FileListMessage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="45" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="45" />
+            <state relative-caret-position="75">
+              <caret line="6" selection-start-line="6" selection-end-line="8" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -99,23 +119,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ServerMain.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Cloud/Server/ServerMain.java">
+      <file leaf-file-name="FileDataMessage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Cloud/Common/MessageType/FileDataMessage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="75">
+              <caret line="8" selection-start-line="8" selection-end-line="10" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SQLConnect.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Cloud/Server/SQLConnect.java">
+      <file leaf-file-name="AuthMessage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Cloud/Common/MessageType/AuthMessage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="19" column="7" lean-forward="true" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+            <state relative-caret-position="180">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
@@ -132,8 +149,8 @@
       <file leaf-file-name="NettyClient.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Cloud/Client/NettyClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="436">
-              <caret line="56" column="29" selection-start-line="56" selection-start-column="29" selection-end-line="56" selection-end-column="29" />
+            <state relative-caret-position="540">
+              <caret line="40" column="38" lean-forward="true" selection-start-line="40" selection-start-column="38" selection-end-line="40" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -144,14 +161,10 @@
       <file leaf-file-name="ClientHandler.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Cloud/Client/ClientHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="24" selection-end-column="7" />
+            <state relative-caret-position="15">
+              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#596#597#0" expanded="true" />
-                <element signature="e#640#641#0" expanded="true" />
-                <element signature="e#2009#2010#0" expanded="true" />
-                <element signature="e#2036#2037#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -186,28 +199,28 @@
         <option value="$PROJECT_DIR$/src/main/java/Cloud/Controller.java" />
         <option value="$PROJECT_DIR$/src/main/resources/client.fxml" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/logback.xml" />
         <option value="$PROJECT_DIR$/src/main/java/Cloud/Client/EchoClient.java" />
         <option value="$PROJECT_DIR$/src/main/java/Cloud/Client/ClientHandler2.java" />
         <option value="$PROJECT_DIR$/src/main/java/Cloud/Client/NettyClientDoNotUse.java" />
         <option value="$PROJECT_DIR$/src/main/java/Cloud/Common/MyMessage.java" />
         <option value="$PROJECT_DIR$/src/main/java/Cloud/Client/WorkWithFiles.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Cloud/Common/MessageType/AuthMessage.java" />
         <option value="$PROJECT_DIR$/src/main/java/Cloud/Client/ClientMain.java" />
         <option value="$PROJECT_DIR$/File/ClientFile/123.txt" />
-        <option value="$PROJECT_DIR$/src/main/java/Cloud/Common/MessageType/FileDataMessage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Cloud/Client/NettyClient.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Cloud/Common/MessageType/FileListMessage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Cloud/Common/Color.java" />
         <option value="$PROJECT_DIR$/src/main/java/Cloud/Common/MessageType/FileDeleteMessage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Cloud/Common/WorkWithFiles.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Cloud/Common/MessageType/CommonMessage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Cloud/Client/ClientHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Cloud/Server/SQLConnect.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/logback.xml" />
         <option value="$PROJECT_DIR$/src/main/java/Cloud/Server/ServerAuthHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Cloud/Client/Controller.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Cloud/Server/ServerMain.java" />
         <option value="$PROJECT_DIR$/src/main/java/Cloud/Server/ServerHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Cloud/Server/SQLConnect.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Cloud/Common/WorkWithFiles.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Cloud/Common/Color.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Cloud/Common/MessageType/FileListMessage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Cloud/Common/MessageType/FileDataMessage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Cloud/Common/MessageType/CommonMessage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Cloud/Common/MessageType/AuthMessage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Cloud/Client/ClientHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Cloud/Client/NettyClient.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Cloud/Server/ServerMain.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Cloud/Client/Controller.java" />
       </list>
     </option>
   </component>
@@ -227,19 +240,17 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
+    <option name="x" value="24" />
     <option name="y" value="23" />
-    <option name="width" value="1280" />
-    <option name="height" value="724" />
+    <option name="width" value="1237" />
+    <option name="height" value="722" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -423,11 +434,15 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="Exasol" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -595,14 +610,18 @@
       <workItem from="1528034539340" duration="435000" />
       <workItem from="1528035054392" duration="23472000" />
       <workItem from="1528180754049" duration="21657000" />
+      <workItem from="1528287734641" duration="125000" />
+      <workItem from="1528288049980" duration="30000" />
+      <workItem from="1528293244084" duration="5133000" />
+      <workItem from="1528309269310" duration="957000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64948000" />
+    <option name="totallyTimeSpent" value="71193000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="724" extended-state="0" />
+    <frame x="24" y="23" width="1237" height="722" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -615,11 +634,11 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.25538462" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.203125" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21018593" />
       <window_info anchor="right" id="Database" order="3" weight="0.3296875" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -632,7 +651,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3287037" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -752,13 +771,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="40" column="21" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Cloud/Client/ClientHandler2.java" />
     <entry file="file://$PROJECT_DIR$/File/ClientFile/debug.log">
       <provider selected="true" editor-type-id="text-editor" />
@@ -771,13 +783,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Cloud/Common/MyMessage.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/logback.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="35" column="30" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/File/ClientFile/123.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -785,102 +790,72 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Cloud/Common/Color.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/null123.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/null123.txt" />
     <entry file="file://$PROJECT_DIR$/File/ServerFile/LoginTest/debug.log">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/File/ServerFile/LoginTest/789.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/File/ServerFile/LoginTest/456.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/File/ServerFile/LoginTest/789.txt" />
+    <entry file="file://$PROJECT_DIR$/File/ServerFile/LoginTest/456.txt" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/client.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="364">
           <caret line="43" column="69" selection-start-line="43" selection-start-column="69" selection-end-line="43" selection-end-column="69" />
         </state>
       </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/File/ServerFile/LoginTest/123.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Cloud/Common/WorkWithFiles.java">
+    <entry file="file://$PROJECT_DIR$/File/ServerFile/LoginTest/123.txt" />
+    <entry file="file://$PROJECT_DIR$/File/ClientFile789.txt" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Cloud/Common/MessageType/FileDeleteMessage.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/logback.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+        <state relative-caret-position="331">
+          <caret line="29" column="53" selection-start-line="29" selection-start-column="53" selection-end-line="29" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="397">
+          <caret line="40" column="21" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Cloud/Server/SQLConnect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1034">
+          <caret line="11" column="10" lean-forward="true" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Cloud/Common/MessageType/AuthMessage.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Cloud/Server/ServerAuthHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="204">
+          <caret line="14" selection-start-line="14" selection-end-line="20" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Cloud/Common/Color.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="5" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Cloud/Common/MessageType/CommonMessage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="47" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
-          <folding>
-            <element signature="e#443#444#0" expanded="true" />
-            <element signature="e#473#474#0" expanded="true" />
-            <element signature="e#379#380#0" expanded="true" />
-            <element signature="e#405#406#0" expanded="true" />
-            <element signature="e#444#445#0" expanded="true" />
-            <element signature="e#477#478#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="9" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Cloud/Common/MessageType/FileDataMessage.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Cloud/Common/MessageType/AuthMessage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="52" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Cloud/Common/MessageType/FileListMessage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="45" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/File/ClientFile789.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Cloud/Client/ClientHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="24" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#596#597#0" expanded="true" />
-            <element signature="e#640#641#0" expanded="true" />
-            <element signature="e#2009#2010#0" expanded="true" />
-            <element signature="e#2036#2037#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="180">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
@@ -891,59 +866,71 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Cloud/Client/NettyClient.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Cloud/Common/MessageType/FileDataMessage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="436">
-          <caret line="56" column="29" selection-start-line="56" selection-start-column="29" selection-end-line="56" selection-end-column="29" />
+        <state relative-caret-position="75">
+          <caret line="8" selection-start-line="8" selection-end-line="10" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Cloud/Common/MessageType/FileListMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="6" selection-start-line="6" selection-end-line="8" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Cloud/Server/ServerAuthHandler.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Cloud/Common/WorkWithFiles.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Cloud/Common/MessageType/FileDeleteMessage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Cloud/Client/Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-          <folding>
-            <element signature="e#3141#3142#0" expanded="true" />
-            <element signature="e#3200#3201#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Cloud/Server/SQLConnect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="19" column="7" lean-forward="true" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+        <state relative-caret-position="510">
+          <caret line="40" column="16" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Cloud/Server/ServerHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="795">
-          <caret line="65" column="14" selection-start-line="65" selection-start-column="14" selection-end-line="65" selection-end-column="14" />
+        <state relative-caret-position="184">
+          <caret line="31" column="13" lean-forward="true" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Cloud/Client/ClientHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Cloud/Server/ServerMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+        <state relative-caret-position="226">
+          <caret line="54" column="61" lean-forward="true" selection-start-line="54" selection-start-column="61" selection-end-line="54" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Cloud/Client/NettyClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="40" column="38" lean-forward="true" selection-start-line="40" selection-start-column="38" selection-end-line="40" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Cloud/Client/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="411">
+          <caret line="55" selection-start-line="55" selection-end-line="55" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

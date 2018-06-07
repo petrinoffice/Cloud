@@ -5,10 +5,7 @@ import Cloud.Common.MessageType.AuthMessage;
 import Cloud.Common.MessageType.CommonMessage;
 import Cloud.Common.MessageType.FileDataMessage;
 import Cloud.Common.MessageType.FileListMessage;
-import Cloud.Common.WorkWithFiles;
-import Cloud.Server.ServerHandler;
 import io.netty.channel.ChannelHandlerContext;
-import io.netty.channel.ChannelInboundHandler;
 import io.netty.channel.ChannelInboundHandlerAdapter;
 import javafx.event.ActionEvent;
 import org.slf4j.Logger;
@@ -23,7 +20,7 @@ public class ClientHandler extends ChannelInboundHandlerAdapter {
     /**
      * Creates a client-side handler.
      */
-    private static Logger logger = LoggerFactory.getLogger(ServerHandler.class);
+    private static Logger logger = LoggerFactory.getLogger(ClientHandler.class);
     private Controller controller;
     private FileDataMessage fileDataMessage = null;
     private ChannelHandlerContext ctx;

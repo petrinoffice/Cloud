@@ -15,15 +15,16 @@ import java.nio.file.Paths;
 import java.nio.file.StandardOpenOption;
 
 public class ServerHandler extends ChannelInboundHandlerAdapter {
+    /**
+     * Класс обработки сообщений ServerHandler, выполняет основной функционал облочного хранилища.
+     * Переменная rootPath отвечает за корневой каталог придожения.
+     *
+     */
     private static Logger logger = LoggerFactory.getLogger(ServerHandler.class);
     private String clientLogin = null;
     private String rootPath = "File/ServerFile/";
     private String clientPath;
 
-
-    @Override
-    public void channelActive(ChannelHandlerContext ctx) throws Exception {
-    }
 
     @Override
     public void channelRead(ChannelHandlerContext ctx, Object msg) throws Exception {
