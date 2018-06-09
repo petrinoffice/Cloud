@@ -16,7 +16,7 @@ import java.nio.file.StandardOpenOption;
 
 public class ServerHandler extends ChannelInboundHandlerAdapter {
     /**
-     * Класс обработки сообщений ServerHandler, выполняет основной функционал облочного хранилища.
+     * Класс обработки сообщений ServerHandler, выполняет основной функционал серверной части облочного хранилища.
      * Переменная rootPath отвечает за корневой каталог придожения.
      *
      */

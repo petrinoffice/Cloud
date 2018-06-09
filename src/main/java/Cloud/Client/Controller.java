@@ -3,6 +3,7 @@ package Cloud.Client;
 import Cloud.Common.MessageType.CommonMessage;
 import Cloud.Common.MessageType.FileDataMessage;
 import Cloud.Common.WorkWithFiles;
+import Cloud.Server.ServerAuthHandler;
 import javafx.application.Platform;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
@@ -13,6 +14,8 @@ import javafx.scene.control.TextField;
 import javafx.scene.layout.HBox;
 import javafx.scene.paint.Color;
 import javafx.util.Callback;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.io.IOException;
 import java.nio.file.Files;
@@ -20,6 +23,8 @@ import java.nio.file.Paths;
 import java.util.List;
 
 public class Controller {
+
+    private static Logger logger = LoggerFactory.getLogger(Controller.class);
 
     public TextField loginField;
     public TextField passField;
@@ -29,7 +34,6 @@ public class Controller {
     public ListView localList;
     public ListView cloudList;
 
-    private WorkWithFiles workWithFiles = new WorkWithFiles();
     private ClientHandler clientHandler;
     protected String pathToSearch = "File/ClientFile";
 
@@ -48,7 +52,7 @@ public class Controller {
         t.start();
 
         try {
-            Thread.sleep(1000);
+            Thread.sleep(1000); // Немного ждем запуска NettyClient
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -81,7 +85,7 @@ public class Controller {
 
     public void refreshClientFile(ActionEvent actionEvent) {
         Platform.runLater(() -> {
-            ObservableList<String> items = FXCollections.observableArrayList(workWithFiles.startSearchFilenameHashDate(pathToSearch));
+            ObservableList<String> items = FXCollections.observableArrayList(WorkWithFiles.startSearchFilenameHashDate(pathToSearch));
             localList.setItems(items);
             localList.setCellFactory(new Callback<ListView<String>,
                     ListCell<String>>() {
@@ -103,7 +107,7 @@ public class Controller {
 
     public void deleteClientFile(ActionEvent actionEvent) {
         WorkWithFiles.deleteFile(pathToSearch+"/"+localList.getSelectionModel().getSelectedItem());
-        ObservableList<String> items = FXCollections.observableArrayList(workWithFiles.startSearchFilenameHashDate(pathToSearch));
+        ObservableList<String> items = FXCollections.observableArrayList(WorkWithFiles.startSearchFilenameHashDate(pathToSearch));
         localList.setItems(items);
     }
 
@@ -126,7 +130,7 @@ public class Controller {
             if (item != null) {
                 try {
                     if (Files.size(Paths.get(pathToSearch +"/"+ item)) > NettyClient.MAX_OBJ_SIZE) {
-                        setText(item+" файл нельзя передать");
+                        setText(item+" <<файл нельзя передать>>");
                         setTextFill(Color.web("red"));
                     }else {
                         setText(item);

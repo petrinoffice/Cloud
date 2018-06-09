@@ -18,12 +18,15 @@ import java.nio.file.StandardOpenOption;
 
 public class ClientHandler extends ChannelInboundHandlerAdapter {
     /**
-     * Creates a client-side handler.
+     * Класс обработки сообщений ClientHandler, выполняет обработку сообщений клиентской части облочного хранилища.
+     * В методе channelRead происходит обработка входящих сообщений.
+     * В методе sendMsg происходит обработка исходящих сообщений.
      */
     private static Logger logger = LoggerFactory.getLogger(ClientHandler.class);
     private Controller controller;
-    private FileDataMessage fileDataMessage = null;
     private ChannelHandlerContext ctx;
+    //private FileDataMessage fileDataMessage = null;
+
 
     public ClientHandler(Controller controller) {
         this.controller = controller;
@@ -43,14 +46,15 @@ public class ClientHandler extends ChannelInboundHandlerAdapter {
 
         if (msg instanceof CommonMessage){
             if (((CommonMessage) msg).getCmd() == 1){
-                System.out.println(controller);
                 controller.authComplete();
-                System.out.println("ok");
+                logger.info("Клиент авторизовался на сервере");
             } else if (((CommonMessage) msg).getCmd() == 3){
-                controller.loginField.setStyle("-fx-text-inner-color: red;");;
+                controller.loginField.setStyle("-fx-text-inner-color: red;");
+                logger.error(Color.ANSI_RED.getColor()+ "Клиент не смог авторизоваться на сервере, полученно сообщение с кодом 3" + Color.ANSI_RESET.getColor());
             }
         } else if (msg instanceof FileListMessage){
             controller.refreshServerFile(((FileListMessage) msg).getFiles());
+            return;
 
         } else if (msg instanceof FileDataMessage) {
             FileDataMessage fdm = (FileDataMessage) msg;
@@ -60,6 +64,7 @@ public class ClientHandler extends ChannelInboundHandlerAdapter {
                 e.printStackTrace();
             }
             controller.refreshClientFile(new ActionEvent());
+            return;
 
         } else {
             logger.error(Color.ANSI_RED.getColor() + "Server received wrong object!" + Color.ANSI_RESET.getColor());
@@ -76,6 +81,7 @@ public class ClientHandler extends ChannelInboundHandlerAdapter {
     public void exceptionCaught(ChannelHandlerContext ctx, Throwable cause) {
         // Close the connection when an exception is raised.
         cause.printStackTrace();
+        logger.error("При обоаботке сообщения возникло исключение.");
         ctx.close();
     }
 
@@ -88,8 +94,7 @@ public class ClientHandler extends ChannelInboundHandlerAdapter {
     Метод sendMsg дичайший костыль, но избавится от него незнаю как
      */
     protected void sendMsg(Object o){
-        System.out.println(ctx);
         ctx.writeAndFlush(o);
-        System.out.println("Message send");
+        logger.info(Color.ANSI_PURPLE.getColor() + "Сообщение " + o.getClass() + " отправленно" + Color.ANSI_RESET.getColor());
     }
 }

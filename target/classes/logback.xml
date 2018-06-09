@@ -22,8 +22,7 @@
 
         <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
             <!-- rollover daily -->
-            <fileNamePattern>${DEV_HOME}/archived/debug.%d{yyyy-MM-dd}.%i.zip
-            </fileNamePattern>
+            <fileNamePattern>${DEV_HOME}/archived/debug.%d{yyyy-MM-dd}.%i.log.zip</fileNamePattern>
             <timeBasedFileNamingAndTriggeringPolicy
                     class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
                 <maxFileSize>10MB</maxFileSize>
@@ -33,9 +32,10 @@
     </appender>
 
     <!-- Send logs to both console and file audit -->
-    <logger name="Cloud.Server" level="debug" additivity="false">
+    <logger name="Cloud" level="debug" additivity="false">
         <appender-ref ref="FILE-AUDIT" />
         <appender-ref ref="STDOUT" />
     </logger>
+
 
 </configuration>
